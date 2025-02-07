@@ -125,7 +125,7 @@ void afficheMechants() {
     }
 }
 
-void Score()///
+void Score()
  {
     lcd.locate(82, 0);
     lcd.printf("Score: %d", score);
@@ -258,7 +258,7 @@ void Cheat_score() {
 
 
 
-int afficherCommandes()///
+int afficherCommandes()
  {
     lcd.cls();
     lcd.locate(0, 0);
@@ -276,7 +276,7 @@ int afficherCommandes()///
      
 
 }
-int afficherMenu() ///
+int afficherMenu() 
 {
     lcd.cls();
     lcd.locate(0, 0);
